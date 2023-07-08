@@ -20,8 +20,10 @@ The `docker-compose` command is used with the configuration file `docker-compose
 * `docker-compose.yml_bak` contains the single-run configuration.
 * `gen_compose.py` creates docker-compose.yml for multi-run configuration.
 * `run.sh` builds the worker images, then runs the docker-compose generator and at last runs the `docker-compose` command.
+* `src/` contains the source code of the miner.
+* `dump` contains the database schema used to init the DB structure when running the DB container.
 
-### Setup:
+### Pre-requisites:
 
 Please replace all the `<PLACEHOLDER>` with the correct DB credentials to use.
 
